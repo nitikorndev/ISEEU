@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">EUQndWEnF7MSWOrtvwFuxA4yGcZucTJx</property>
+    <property name="acs-oauth-key-production" type="string">OSa6uhfVyqdSKzQN0tbcAWS0ZDJGtuA0</property>
+    <property name="acs-api-key-production" type="string">KMpHMC9aXgEJ0KiwQumO44QbBBbYeXVF</property>
+    <property name="acs-oauth-secret-development" type="string">o6OZOHOVXiog4XSslu94xA0c2s5tR6dN</property>
+    <property name="acs-oauth-key-development" type="string">l5W3Z9qzkvQGdAURp1z2esOxX8If1gfR</property>
+    <property name="acs-api-key-development" type="string">SOr0UdpAh5x7vKdSi02oGeMFJMx9K5CJ</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.0.2.GA</sdk-version>
+    <id>th.ISEEU</id>
+    <name>ISEEU</name>
+    <version>1.0</version>
+    <publisher>Nitigron</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by Nitigron</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>3f68d38a-d252-4250-9ffd-92ae9bf1af12</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.0.5">ti.cloud</module>
+    </modules>
+</ti:app>
